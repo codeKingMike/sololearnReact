@@ -64,24 +64,6 @@ a.nav-link {
 nav {
   background-color: transparent;
 }
-header a.btn-lg {
-  background-color: #1abc9c;
-  color: #fff;
-  border-radius: 50px;
-  margin-top: 10px;
-  padding: 10px 50px;
-  font-weight: 600;
-  border: 1px solid #1abc9c;
-}
-header a.btn-lg:hover {
-  background-color: #17a68a;
-  color: #fff;
-  border-radius: 50px;
-  margin-top: 10px;
-  padding: 10px 50px;
-  font-weight: 600;
-  border: 1px solid #17a68a;
-}
 button {
   background-color: transparent;
   font-weight: 700;
