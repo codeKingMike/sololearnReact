@@ -16,60 +16,74 @@ function Greeting() {
 <div className="bg-dark p-4">
 <ul className="nav justify-content-end">
                 <li className="nav-item">
-                  <a className="nav-link active" href="courses.html">Courses</a>
+                <button className="nav-link btn btn-md mr-3 active" href="#">Courses</button>
+                  
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="codePlayground.html">Code Playground</a>
+                  <button className="nav-link btn btn-md mr-3" href="#">Code Playground</button>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">Discuss</a>
+                  <button className="nav-link btn btn-md mr-3" href="#">Discuss</button>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">Top Learners</a>
+                  <button className="nav-link btn btn-md mr-3" href="#">Top Learners</button>
                 </li>
               <li className="nav-item">
-                  <a className="nav-link" href="#">Blog</a>
+                  <button className="nav-link btn btn-md mr-3" href="#">Blog</button>
                 </li>
               <li className="nav-item">
-                  <a className="nav-link signIn" href="#">Sign In1</a>
+                  <button className="nav-link btn btn-md mr-3 signIn" href="#">Sign In</button>
                 </li>
               </ul>
 </div>
 </div>
+{/* 
 <nav className="navbar navbar-dark bg-transparent">
 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
 <span className="navbar-toggler-icon"></span>
 </button>
 </nav>
-          <a className="navbar-brand" href="#"><h1>Sololearn</h1></a>
-
-                              <ul className="nav mainNav justify-content-end">
+*/}
+        <div className="mainLinks">
+          <div className="row">
+            <div className="col-lg-2">
+                <button className="navbar-brand btn btn-md" href="#"><h1>Sololearn</h1></button>
+            </div>
+            <div className="col-lg-10">
+<ul className="nav mainNav justify-content-end">
                 <li className="nav-item">
-                  <a className="nav-link active" href="courses.html">Courses</a>
+                  <button className="nav-link btn btn-md mr-3 active" href="#">Courses</button>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="codePlayground.html">Code Playground</a>
+                  <button className="nav-link btn btn-md mr-3" href="#">Code Playground</button>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">Discuss</a>
+                  <button className="nav-link btn btn-md mr-3" href="#">Discuss</button>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">Top Learners</a>
+                  <button className="nav-link btn btn-md mr-3" href="#">Top Learners</button>
                 </li>
               <li className="nav-item">
-                  <a className="nav-link" href="#">Blog</a>
+                  <button className="nav-link btn btn-md mr-3" href="#">Blog</button>
                 </li>
               <li className="nav-item">
-                  <a className="nav-link signIn" href="#">Sign In</a>
+                  <button className="nav-link btn btn-md mr-3 signIn" href="#">Sign In</button>
                 </li>
               </ul>
+            </div>
+          </div>
+        </div>
+
+          
+
+                              
           </div>
 
           <div className="headingText">
               <h1>Join the largest community of mobile code learners today
 </h1>
           <h5 className="middleText">Learning programming can be fun!</h5>
-          <a className="btn btn-lg" href="courses.html">Start Learning Now</a>
+          <button className="btn btn-lg" href="#">Start Learning Now</button>
           </div>
           
 
