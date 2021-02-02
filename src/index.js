@@ -73,10 +73,7 @@ function Greeting() {
             </div>
           </div>
         </div>
-
-          
-
-                              
+                  
           </div>
 
           <div className="headingText">
