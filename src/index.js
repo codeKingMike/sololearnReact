@@ -84,7 +84,6 @@ function Greeting() {
           </div>
       </nav> 
       </div>
-      
   </div>
 </header>
 </section>
