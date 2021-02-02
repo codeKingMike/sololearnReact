@@ -82,8 +82,6 @@ function Greeting() {
           <h5 className="middleText">Learning programming can be fun!</h5>
           <button className="btn btn-lg" href="#">Start Learning Now</button>
           </div>
-          
-
       </nav> 
       </div>
       
